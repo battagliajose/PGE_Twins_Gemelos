@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JAB_Verificador_Codigos_Gemelos_Twins", "JAB_Verificador_Codigos_Gemelos_Twins\JAB_Verificador_Codigos_Gemelos_Twins.csproj", "{6B974A8F-77B2-47AC-80B2-F9DFB4269499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B974A8F-77B2-47AC-80B2-F9DFB4269499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B974A8F-77B2-47AC-80B2-F9DFB4269499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B974A8F-77B2-47AC-80B2-F9DFB4269499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B974A8F-77B2-47AC-80B2-F9DFB4269499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF91AB81-773E-4F27-B813-500C7E82EE6F}
+	EndGlobalSection
+EndGlobal
