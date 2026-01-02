@@ -10,10 +10,13 @@ namespace JAB_Verificador_Codigos_Gemelos_Twins
     {
         internal string codBarras { get; set; }
         internal string codProducto { get; set; }
+        internal string grupo { get; set; }
         internal string descripcion {  get; set; }
+        internal decimal cantidad { get; set; }
         internal decimal peso { get; set; }
         internal string lote {  get; set; }
         internal int fechaProduccion { get; set; }
+        internal int fechaFaena { get; set; }
         internal int fecha { get; set; }
         internal string hora { get; set; }
         internal string estado { get; set; }

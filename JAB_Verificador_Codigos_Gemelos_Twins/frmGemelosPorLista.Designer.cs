@@ -33,7 +33,7 @@
             this.btnCargarTXT = new System.Windows.Forms.Button();
             this.dgvCodbars = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnExportAExcel = new System.Windows.Forms.Button();
+            this.btnExportCSV = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCodbars)).BeginInit();
             this.SuspendLayout();
             // 
@@ -82,22 +82,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnExportAExcel
+            // btnExportCSV
             // 
-            this.btnExportAExcel.Location = new System.Drawing.Point(672, 368);
-            this.btnExportAExcel.Name = "btnExportAExcel";
-            this.btnExportAExcel.Size = new System.Drawing.Size(116, 32);
-            this.btnExportAExcel.TabIndex = 12;
-            this.btnExportAExcel.Text = "Exportar a Excel";
-            this.btnExportAExcel.UseVisualStyleBackColor = true;
-            this.btnExportAExcel.Click += new System.EventHandler(this.btnExportAExcel_Click);
+            this.btnExportCSV.Location = new System.Drawing.Point(672, 368);
+            this.btnExportCSV.Name = "btnExportCSV";
+            this.btnExportCSV.Size = new System.Drawing.Size(116, 32);
+            this.btnExportCSV.TabIndex = 12;
+            this.btnExportCSV.Text = "Exportar a CSV";
+            this.btnExportCSV.UseVisualStyleBackColor = true;
+            this.btnExportCSV.Click += new System.EventHandler(this.btnExportCSV_Click);
             // 
             // frmGemelosPorLista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnExportAExcel);
+            this.Controls.Add(this.btnExportCSV);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgvCodbars);
             this.Controls.Add(this.btnCargarTXT);
@@ -120,6 +120,6 @@
         private System.Windows.Forms.Button btnCargarTXT;
         private System.Windows.Forms.DataGridView dgvCodbars;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnExportAExcel;
+        private System.Windows.Forms.Button btnExportCSV;
     }
 }

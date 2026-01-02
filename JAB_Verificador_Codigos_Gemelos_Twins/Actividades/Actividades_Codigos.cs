@@ -60,7 +60,7 @@ namespace JAB_Verificador_Codigos_Gemelos_Twins
 
        internal List<CodBar> getCodbarsGemelos(List<string> codigos)
        {
-            List<CodBar> codBarsAux = new List<CodBar>();
+            List<CodBar> codBarsAux;
             List<CodBar> codbarsGemelos = new List<CodBar>();
 
             foreach (string codigo in codigos)
@@ -73,7 +73,7 @@ namespace JAB_Verificador_Codigos_Gemelos_Twins
                     && codBarsAux[0].estado != "101"
                     && codBarsAux[0].estado != "102")
                     {
-                        codbarsGemelos.Add(codBarsAux[1]);
+                        codbarsGemelos.Add(codBarsAux[0]);
                     }
 
                 if (codBarsAux[1].peso == codBarsAux[2].peso

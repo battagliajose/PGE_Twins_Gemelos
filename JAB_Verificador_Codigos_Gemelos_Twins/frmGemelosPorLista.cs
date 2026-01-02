@@ -69,14 +69,15 @@ namespace JAB_Verificador_Codigos_Gemelos_Twins
             {
                 CodBar = x.codBarras,
                 Producto = x.codProducto,
-                Grupo = "",
+                Grupo = x.grupo,
                 Descripcion = x.descripcion,
-                Cantidad = "",
-                Unidad = "",
+                Cantidad = x.cantidad,
+                Unidad = 1,
                 Peso = x.peso,
                 Lote = x.lote,
-                Fecha = x.fecha,
-                Hora = x.hora,
+                FechaFaena = x.fechaFaena,
+                FechaProduccion = x.fechaProduccion,
+                Estado = "Presunto Duplicado"
                 //Estado = x.estado,
                 //Usuario = x.usuario
             }).ToList();
@@ -86,7 +87,7 @@ namespace JAB_Verificador_Codigos_Gemelos_Twins
             dgvCodbars.DataSource = transactionsDataSource;
         }
 
-        private void btnExportAExcel_Click(object sender, EventArgs e)
+        private void btnExportCSV_Click(object sender, EventArgs e)
         {
             helper.ExportarDataGridViewACsv(dgvCodbars);
         }
